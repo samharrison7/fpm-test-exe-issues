@@ -1,0 +1,19 @@
+name = "fpm-test"
+version = "0.1.0"
+license = "license"
+author = "Sam Harrison"
+maintainer = "samharrison.xg@gmail.com"
+copyright = "Copyright 2022, Sam Harrison"
+
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+
+[install]
+library = false
+
+[[executable]]
+name = "main"
+source-dir = "src"
+main = "main.f90"
